@@ -1,0 +1,10 @@
+"""
+np.concate((array1,array2), axis = 0)
+axis - 0> vertical stacking
+     - 1> horiontal stacking
+"""
+import numpy as np
+arr1 = np.array([10,20,30])
+arr2= np.array([40,50,60,70,80])
+newarr= np.concatenate((arr1,arr2))
+print(newarr)
